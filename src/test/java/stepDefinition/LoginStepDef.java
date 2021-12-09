@@ -53,5 +53,19 @@ public class LoginStepDef {
 	    	System.out.println("verification step");
 	    }
 
+	    /*@When(": User enters {string} and user enters {string}")
+	    public void user_enters_and_user_enters(String username, String password) {
+	        // Write code here that turns the phrase above into concrete actions
+	    	WebElement email = driver.findElement(By.id("txtUsername"));
+			email.sendKeys(username);
+			driver.findElement(By.name("txtPassword")).sendKeys(password);
+	    }*/
+	    
+	    @When("^: User enters (.+) and user enters (.+)$")
+	    public void _user_enters_and_user_enters(String username, String password) throws Throwable {
+	    	WebElement email = driver.findElement(By.id("txtUsername"));
+			email.sendKeys(username);
+			driver.findElement(By.name("txtPassword")).sendKeys(password);
+	    }
 
 }
