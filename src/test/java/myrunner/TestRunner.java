@@ -11,7 +11,8 @@ import io.cucumber.junit.CucumberOptions;
 		monochrome = true,
 		dryRun = false,
 		features = ".\\src\\test\\java\\features\\Login.feature",
-		glue = "stepDefinition" 
+		glue = "stepDefinition",
+		plugin = {"pretty", "html:reports/htmlreport.html", "json:reports/jsonreport.json", "junit:reports/junit1.xml"}
 		)
 
 public class TestRunner {

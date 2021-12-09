@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="51.37">
+    <testcase classname="OrangeHRM Login Page" name="Validating the title of the page" time="7.129">
+        <system-out><![CDATA[Given : User is on Login Page...............................................passed
+When : Title should be equal to OrangeHRM...................................passed
+Then : Close the browser....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="OrangeHRM Login Page" name="Validating Login functionality" time="7.833">
+        <system-out><![CDATA[Given : User is on Login Page...............................................passed
+When : User enters "Admin" and user enters "admin123".......................passed
+And : Clicks on login button................................................passed
+Then : User should be on dashboard page.....................................passed
+And : Close the browser.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="OrangeHRM Login Page" name="Validating Login functionality 2" time="10.242">
+        <system-out><![CDATA[Given : User is on Login Page...............................................passed
+When : User enters Admin and user enters admin123...........................passed
+And : Clicks on login button................................................passed
+Then : User should be on dashboard page.....................................passed
+And : Close the browser.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="OrangeHRM Login Page" name="Validating Login functionality 3" time="7.491">
+        <system-out><![CDATA[Given : User is on Login Page...............................................passed
+When : User enters abc and user enters ace123...............................passed
+And : Clicks on login button................................................passed
+Then : User should be on dashboard page.....................................passed
+And : Close the browser.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="OrangeHRM Login Page" name="Validating Login functionality 4" time="10.853">
+        <system-out><![CDATA[Given : User is on Login Page...............................................passed
+When : User enters Admin and user enters admin123...........................passed
+And : Clicks on login button................................................passed
+Then : User should be on dashboard page.....................................passed
+And : Close the browser.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="OrangeHRM Login Page" name="Validating Login functionality 5" time="7.649">
+        <system-out><![CDATA[Given : User is on Login Page...............................................passed
+When : User enters user2 and user enters pass2..............................passed
+And : Clicks on login button................................................passed
+Then : User should be on dashboard page.....................................passed
+And : Close the browser.....................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

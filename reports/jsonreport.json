@@ -1,0 +1,461 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-09T06:58:33.615Z",
+        "line": 3,
+        "name": "Validating the title of the page",
+        "description": "",
+        "id": "orangehrm-login-page;validating-the-title-of-the-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6887169800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ": User is on Login Page",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4986100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": Title should be equal to OrangeHRM",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._title_should_be_equal_to_orangehrm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 176082800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": Close the browser",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T06:58:40.755Z",
+        "line": 9,
+        "name": "Validating Login functionality",
+        "description": "",
+        "id": "orangehrm-login-page;validating-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6138578400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": ": User is on Login Page",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 117799700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": ": User enters \"Admin\" and user enters \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinition.LoginStepDef._user_enters_and_user_enters(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1328814200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": ": Clicks on login button",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": ": User should be on dashboard page",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._user_should_be_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 244433600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": ": Close the browser",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T06:58:48.596Z",
+        "line": 26,
+        "name": "Validating Login functionality",
+        "description": "",
+        "id": "orangehrm-login-page;validating-login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6095957000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": ": User is on Login Page",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 96741200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": ": User enters Admin and user enters admin123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 14
+                },
+                {
+                  "val": "admin123",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinition.LoginStepDef._user_enters_and_user_enters(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3875736600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": ": Clicks on login button",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": ": User should be on dashboard page",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._user_should_be_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 168550100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": ": Close the browser",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T06:58:58.848Z",
+        "line": 27,
+        "name": "Validating Login functionality",
+        "description": "",
+        "id": "orangehrm-login-page;validating-login-functionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5889086100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": ": User is on Login Page",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 83540000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": ": User enters abc and user enters ace123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc",
+                  "offset": 14
+                },
+                {
+                  "val": "ace123",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinition.LoginStepDef._user_enters_and_user_enters(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1334241000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": ": Clicks on login button",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": ": User should be on dashboard page",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._user_should_be_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 181771800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": ": Close the browser",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T06:59:06.343Z",
+        "line": 28,
+        "name": "Validating Login functionality",
+        "description": "",
+        "id": "orangehrm-login-page;validating-login-functionality;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6152151800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": ": User is on Login Page",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 92752500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": ": User enters Admin and user enters admin123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 14
+                },
+                {
+                  "val": "admin123",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinition.LoginStepDef._user_enters_and_user_enters(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4442514600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": ": Clicks on login button",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": ": User should be on dashboard page",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._user_should_be_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 161577300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": ": Close the browser",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T06:59:17.200Z",
+        "line": 29,
+        "name": "Validating Login functionality",
+        "description": "",
+        "id": "orangehrm-login-page;validating-login-functionality;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6072324800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": ": User is on Login Page",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86781700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": ": User enters user2 and user enters pass2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user2",
+                  "offset": 14
+                },
+                {
+                  "val": "pass2",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinition.LoginStepDef._user_enters_and_user_enters(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1299342900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": ": Clicks on login button",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": ": User should be on dashboard page",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._user_should_be_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 183960000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": ": Close the browser",
+            "match": {
+              "location": "stepDefinition.LoginStepDef._close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM Login Page",
+    "description": "",
+    "id": "orangehrm-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
